@@ -1,0 +1,174 @@
+@import "mixins/mixins";
+@import "common/var";
+
+.el-head-bar-style1 {
+  height: 68px;
+  background: url("./images/head/style1.png") no-repeat;
+  background-size: 100%;
+}
+
+ .cls-1 {
+   fill: #fff;
+ }
+
+.cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-2, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29, .cls-3, .cls-30, .cls-4, .cls-5, .cls-7 {
+  fill-rule: evenodd;
+}
+
+.cls-1, .cls-17, .cls-20, .cls-23, .cls-31, .cls-32 {
+  opacity: 0.5;
+}
+
+.cls-2, .cls-25, .cls-28 {
+  stroke-width: 3px;
+}
+
+.cls-2 {
+  fill: url(#linear-gradient);
+  stroke: url(#linear-gradient-2);
+  filter: url(#filter);
+}
+
+.cls-25, .cls-28, .cls-3, .cls-4 {
+  opacity: 0.8;
+}
+
+.cls-3 {
+  fill: url(#linear-gradient-3);
+  filter: url(#filter-2);
+}
+
+.cls-4 {
+  fill: url(#linear-gradient-4);
+  filter: url(#filter-3);
+}
+
+.cls-13, .cls-15, .cls-31, .cls-32, .cls-5 {
+  stroke-width: 2px;
+}
+
+.cls-5 {
+  fill: url(#linear-gradient-5);
+  stroke: url(#linear-gradient-6);
+  filter: url(#filter-4);
+}
+
+.cls-26, .cls-29, .cls-6 {
+  opacity: 0.6;
+}
+
+.cls-11, .cls-12, .cls-7 {
+  fill: #00d8ff;
+}
+
+.cls-7 {
+  filter: url(#filter-5);
+}
+
+.cls-8 {
+  mix-blend-mode: screen;
+}
+
+.cls-9 {
+  filter: url(#filter-6);
+}
+
+.cls-10, .cls-13, .cls-14, .cls-15 {
+  fill: none;
+}
+
+.cls-10, .cls-14 {
+  stroke-width: 1px;
+}
+
+.cls-10 {
+  stroke: url(#linear-gradient-7);
+}
+
+.cls-11, .cls-27, .cls-30 {
+  opacity: 0.3;
+}
+
+.cls-13 {
+  stroke: url(#linear-gradient-8);
+}
+
+.cls-14 {
+  stroke: url(#linear-gradient-9);
+}
+
+.cls-15 {
+  stroke: url(#linear-gradient-10);
+}
+
+.cls-16, .cls-17, .cls-18, .cls-22, .cls-23, .cls-24 {
+  fill: #ffae38;
+}
+
+.cls-16, .cls-19, .cls-22 {
+  opacity: 0.2;
+}
+
+.cls-16 {
+  filter: url(#filter-8);
+}
+
+.cls-17 {
+  filter: url(#filter-9);
+}
+
+.cls-18 {
+  filter: url(#filter-10);
+}
+
+.cls-19, .cls-20, .cls-21 {
+  fill: #138ffc;
+}
+
+.cls-22 {
+  filter: url(#filter-11);
+}
+
+.cls-23 {
+  filter: url(#filter-12);
+}
+
+.cls-24 {
+  filter: url(#filter-13);
+}
+
+.cls-25 {
+  fill: url(#linear-gradient-11);
+  stroke: url(#linear-gradient-12);
+}
+
+.cls-26 {
+  fill: url(#linear-gradient-13);
+}
+
+.cls-27 {
+  fill: url(#linear-gradient-14);
+}
+
+.cls-28 {
+  fill: url(#linear-gradient-15);
+  stroke: url(#linear-gradient-16);
+}
+
+.cls-29 {
+  fill: url(#linear-gradient-17);
+}
+
+.cls-30 {
+  fill: url(#linear-gradient-18);
+}
+
+.cls-31 {
+  fill: url(#linear-gradient-19);
+  stroke: url(#linear-gradient-20);
+}
+
+.cls-32 {
+  fill: url(#linear-gradient-21);
+  stroke: url(#linear-gradient-22);
+}

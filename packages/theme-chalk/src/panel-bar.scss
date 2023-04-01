@@ -1,0 +1,101 @@
+@import "mixins/mixins";
+@import "common/var";
+.boxFontColor {
+  color: #fff;
+}
+.slotBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
+.dv-border-box {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.pit-box-right {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+  flex-flow: row nowrap;
+  color: #fff;
+  .pit-box-right-warp {
+    position: absolute;
+    left: 0px;
+    right: 10px;
+    top: 30px;
+    bottom: 0px;
+  }
+  .pit-box-right-close {
+    position: absolute;
+    /* prettier-ignore */
+    right: 20Px;
+    /* prettier-ignore */
+    top: 40Px;
+    color: #2a88da;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    &:hover {
+      opacity: 0.8;
+      transform: rotate(180deg);
+    }
+  }
+}
+.pit-box-right-a {
+  fill: rgba(14, 17, 50, 0.7);
+}
+.pit-box-right-b {
+  fill: #fff;
+}
+.pit-box-right-c {
+  fill: none;
+  stroke-linejoin: round;
+}
+.pit-box-right-d {
+  fill: #57b8fc;
+}
+.pit-box-right-e,
+.pit-box-right-f {
+  stroke: none;
+}
+.pit-box-right-f {
+  fill: #2a88da;
+}
+.pit-box-right-g {
+  filter: url(#a);
+}
+
+.dv-border-box-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.dv-border-box-1 .border {
+  position: absolute;
+  display: block;
+}
+.dv-border-box-1 .right-top {
+  right: 0px;
+  transform: rotateY(180deg);
+}
+.dv-border-box-1 .left-bottom {
+  bottom: 0px;
+  transform: rotateX(180deg);
+}
+.dv-border-box-1 .right-bottom {
+  right: 0px;
+  bottom: 0px;
+  transform: rotateX(180deg) rotateY(180deg);
+}
+.dv-border-box-1 .border-box-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
